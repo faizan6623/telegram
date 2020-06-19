@@ -85,9 +85,9 @@ def update_tool():
 		print(gr+'['+cy+'+'+gr+']'+cy+' getting latest files ...')
 		os.system("""
 			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/add2group.py
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/scraper.py
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/setup.py
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/smsbot.py
+			curl -s -O https://raw.githubusercontent.com/faizan6623/telegram/master/scraper.py
+			curl -s -O https://raw.githubusercontent.com/faizan6623/telegram/master/setup.py
+			curl -s -O https://raw.githubusercontent.com/faizan6623/telegram/master/smsbot.py
 			chmod 777 *.py
 			""");time.sleep(3)
 		print(gr+'\n['+cy+'+'+gr+']'+cy+' update compled.\n')
